@@ -1,0 +1,8 @@
+server:
+  insecure: true
+  service:
+    type: NodePort
+    nodePortHttp: 30090
+
+controller:
+  replicaCount: 1
